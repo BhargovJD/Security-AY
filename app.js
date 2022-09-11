@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema({
 
 
 // Collection
-const User = mongoose.model("User", userSchema);
+const User = new mongoose.model("User", userSchema);
  
 
  
